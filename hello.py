@@ -7,7 +7,7 @@ app = Flask(__name__)
 def index():
     return render_template('index.html')
 
-
+# good
 @app.route('/user/<name>')
 def user(name):
     return render_template('user.html', name=name)
